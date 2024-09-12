@@ -27,8 +27,5 @@ public class variables{
         System.out.println(numero.getClass());
         System.out.println("Una cadena: " + cadena);
         System.out.println(cadena.getClass());
-
-
-
     }
 }
