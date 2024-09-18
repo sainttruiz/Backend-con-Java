@@ -12,7 +12,6 @@ public class claseMath{
         if (word.equals("salir")){
             break;
         }
-        int r;
         System.out.println(Math.random());
     }
     sc.close();
