@@ -1,3 +1,4 @@
+package codewars;
 public class whoLikesiIt {
 
     public static String solution(String... names) {
