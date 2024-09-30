@@ -1,0 +1,6 @@
+Se creo la calculadora que según un texto ingresado (ejemplo: 2+4-5/6*8) de el resultado
+
+Pendiente:
+- Utilizar las estructuras de datos Stack y Queue
+- Agregar las operaciones con paréntesis
+- Abstraer lógica (Código repetitivo)
