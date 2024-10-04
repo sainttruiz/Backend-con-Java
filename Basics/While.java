@@ -11,5 +11,9 @@ public class While{
         /**A pesar de que el 20 es mayor que el 10, se ejecutará al menos una vez por la
         estructura del do-while*/
         do{System.out.println(j);}while(j<10);
+
+        for (int k = 0; k<=100; k+=7){
+            System.out.println(k);
+        }
     }
 }
