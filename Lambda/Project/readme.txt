@@ -4,5 +4,5 @@ Supongamos que tienes una tienda en línea, y necesitas realizar diferentes oper
 Requerimientos del ejercicio:
 Preguntar al usuario qué tipos de producto quiere observar.
 Preguntar al usuario si quiere filtrar u obtener todos los productos por esa categoría
-Filtrar por Nombre o or precio o por calificación
+Filtrar por Nombre o por precio o por calificación
 Devolver los productos que han sido escogidos según los filtros.
