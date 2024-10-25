@@ -50,6 +50,7 @@ public class Product{
 
     public List<Product> filterByProduct(List<Product> products, String name, String category, Double price, Double rate) {
         return products.stream()
+/**se hace un filtro con el operador "||", si se verifica que cualquiera de los parámetros es null, la condición se evalua como True, por lo cuál el producto no se elimina y se sigue con el siguiente filtro. Si se evalúa como false, se pasa a la segunda validación donde se dejan los elementos que sí coincidan.*/
                 .filter(product -> name == null || product.getName().equalsIgnoreCase(name))
                 .filter(product -> category == null || product.getCategory().equalsIgnoreCase(category))
                 .filter(product -> price == null || product.getPrice() <= price)
