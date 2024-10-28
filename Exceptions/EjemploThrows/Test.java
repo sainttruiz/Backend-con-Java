@@ -9,7 +9,7 @@ public class Test{
         try {
             ejemplo.leerArchivo();
         } catch (IOException e) {
-            System.out.println("Ocurrio un problema de entrada y salida");
+            System.out.println("Ocurrio un problema de entrada y salida: "+e.getMessage());
         }
     }
 }
