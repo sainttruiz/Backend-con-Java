@@ -9,6 +9,7 @@ Clase Estudiante:
 Atributos: nombre (String), edad (int), id (String).
 Constructor que inicializa estos atributos.
 Método toString() que devuelva una representación en formato String del estudiante.
+
 Clase GestorEstudiantes:
 
 Lista de estudiantes (puedes usar ArrayList).
@@ -16,12 +17,17 @@ Métodos para:
 Agregar Estudiante:
 Debe lanzar una IllegalArgumentException si la edad es menor a 0 o si el nombre está vacío.
 Debe verificar que el ID no se repita; si se repite, debe lanzar una IllegalArgumentException.
+
+Un método para ordenar a los estudiantes en orden alfabético.
+
 Eliminar Estudiante:
 Debe lanzar una NoSuchElementException si no se encuentra el estudiante con el ID proporcionado.
 Buscar Estudiante:
 Debe lanzar una NoSuchElementException si no se encuentra el estudiante con el ID proporcionado.
 Listar Estudiantes:
 Imprimir la lista de estudiantes.
+
+
 Clase Main:
 
 Proporcionar un menú al usuario para:
@@ -44,4 +50,4 @@ Creación y manejo de excepciones.
 Validaciones de entradas.
 Estructuración de código en clases.
 Uso de listas y manejo de datos.
-Intenta implementar el programa siguiendo estos lineamientos y aplicando las mejores prácticas en el manejo de excepciones. ¡Buena suerte!
+Intenta implementar el programa siguiendo estos lineamientos y aplicando las mejores prácticas en el manejo de excepciones. ¡Buena suerte!.
