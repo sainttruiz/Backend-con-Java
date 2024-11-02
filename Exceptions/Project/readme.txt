@@ -19,6 +19,7 @@ Debe lanzar una IllegalArgumentException si la edad es menor a 0 o si el nombre 
 Debe verificar que el ID no se repita; si se repite, debe lanzar una IllegalArgumentException.
 
 Un método para ordenar a los estudiantes en orden alfabético.
+Un método para crear ID's únicos sin tener que recurrir a una clase del Java Core.
 
 Eliminar Estudiante:
 Debe lanzar una NoSuchElementException si no se encuentra el estudiante con el ID proporcionado.
