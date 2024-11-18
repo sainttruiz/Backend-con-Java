@@ -1,5 +1,4 @@
 Aquí irán las tareas diarias de la ruta de Backend Development
--Hacer repaso de los comandos básicos de Linux
 -Hacer repaso de la ruta de Backend con Java para saber dónde quedé
 -Terminar proyecto de Student Manager
 -Empezar con POO
